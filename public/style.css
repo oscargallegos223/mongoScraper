@@ -1,0 +1,54 @@
+body { 
+  background-color:rgb(14, 24, 14);
+}
+
+.jumbotron {
+  background-color: lightslategray;
+}
+
+div.panel-body {
+  background-color: lightslategray;
+}
+
+div.panel-heading {
+  background: navy;
+}
+
+.panel-primary>.panel-heading{
+  background-color: navy;
+}
+
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+}
+
+#articles {
+  display: inline-block;
+  overflow: auto;
+  width: 60%;
+  height: 700px;
+}
+
+#notes {
+  float: right;
+  width: 30%;
+}
+
+textarea, input {
+  display: block;
+  width: 100%;
+  background-color: lightslategray;
+}
+
+input {
+  height: 36px;
+  font-size: 24px;
+}
+
+textarea {
+  height: 200px;
+  font-size: 18px;
+}
